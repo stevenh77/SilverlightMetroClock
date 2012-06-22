@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="SilverlightMetroClock.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:SilverlightMetroClock="clr-namespace:SilverlightMetroClock">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <SilverlightMetroClock:DigitalClock Margin="50"
+                                            HorizontalAlignment="Left"
+                                            VerticalAlignment="Bottom" />
+    </Grid>
+</UserControl>
